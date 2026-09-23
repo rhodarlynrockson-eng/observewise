@@ -106,3 +106,23 @@ Early-years practitioners made up 52.4% of respondents, meaning that practitione
 Some open-text responses were brief or did not provide enough detail to influence a design decision. Further research should involve a larger and more balanced group of participants, followed by usability testing with practitioners, students and education professionals.
 
 A question about payment was deliberately excluded because ObserveWise is still at the problem-validation and prototype stage. Understanding users' needs, concerns and willingness to try the concept was considered more appropriate than asking respondents to evaluate pricing before a working service exists.
+
+#### Survey Evidence
+
+The following anonymised charts provide supporting evidence for the survey findings and resulting design decisions.
+
+![Respondent roles](documentation/research/survey-respondent-roles.png)
+
+![Observation challenges](documentation/research/survey-observation-challenges.png)
+
+![Time required for an observation](documentation/research/survey-time-required.png)
+
+![Most useful features](documentation/research/survey-useful-features.png)
+
+![Usefulness of the Child's Voice field](documentation/research/survey-childs-voice.png)
+
+![Concerns about AI](documentation/research/survey-ai-concerns.png)
+
+![Preferred devices](documentation/research/survey-preferred-devices.png)
+
+![Likelihood of trying ObserveWise](documentation/research/survey-likelihood-to-try.png)
