@@ -171,3 +171,50 @@ The user stories were developed from the primary and secondary research. They de
 - As a lecturer, I want ObserveWise to provide observation-writing examples and practice activities, so that I can use it to support early-years students.
 - As a lecturer, I want students to understand objective language and professional judgement, so that they can develop responsible observation skills.
 - As an early-years departmental head, I want the resource to reflect safeguarding and professional expectations, so that it is appropriate for education and training.
+
+- ## Feature Prioritisation
+
+The MoSCoW method was used to prioritise features. This keeps the first version achievable while ensuring that the most important needs identified through research are addressed.
+
+### Must Have
+
+- Clear information explaining ObserveWise and its purpose.
+- A responsive layout that works on mobile, tablet and desktop devices.
+- Simple and consistent navigation.
+- A structured early-years observation form.
+- A field for a child pseudonym or identifier instead of a real name.
+- A dedicated Child's Voice field for recording the child's exact words.
+- Fields for observations, learning and possible next steps.
+- Guidance encouraging clear and objective language.
+- Safeguarding and confidentiality warnings.
+- A warning that users must not enter real children's personal information.
+- Accessible form labels, headings, colour contrast and keyboard navigation.
+
+- ### Should Have
+
+- Examples showing the difference between objective and subjective language.
+- Guidance explaining each section of the observation form.
+- Suggested areas of learning for users to consider.
+- Information for students developing observation-writing skills.
+- Information for managers, lecturers and departmental heads.
+- Clear confirmation after the prototype form is completed.
+
+### Could Have
+
+- Additional observation-writing practice activities.
+- A downloadable blank observation template.
+- More examples covering different early-years situations.
+- A frequently asked questions section.
+- An optional form for users to provide feedback about the prototype.
+
+### Won't Have in This Version
+
+- Artificial-intelligence-generated observations or recommendations.
+- User accounts or login functionality.
+- Storage of observations or children's information.
+- Creation of genuine child records.
+- Automatic progress tracking or summative reports.
+- Payment or subscription functionality.
+- Communication between settings, practitioners, students or families.
+
+These features are outside the scope of Project 1 because ObserveWise is currently a front-end prototype. They may be considered for a future version following further research, technical development and legal, ethical and safeguarding review.
