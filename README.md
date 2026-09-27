@@ -189,6 +189,7 @@ The MoSCoW method was used to prioritise features. This keeps the first version 
 - Safeguarding and confidentiality warnings.
 - A warning that users must not enter real children's personal information.
 - Accessible form labels, headings, colour contrast and keyboard navigation.
+-  A custom 404 page that helps users return to the website.
 
 - ### Should Have
 
@@ -218,3 +219,17 @@ The MoSCoW method was used to prioritise features. This keeps the first version 
 - Communication between settings, practitioners, students or families.
 
 These features are outside the scope of Project 1 because ObserveWise is currently a front-end prototype. They may be considered for a future version following further research, technical development and legal, ethical and safeguarding review.
+
+## Website Structure
+
+ObserveWise will use a clear multi-page structure so that each audience can find relevant information easily.
+
+### Planned Pages
+
+- **Home (`index.html`)** — introduces ObserveWise, explains its purpose and directs users to the main areas of the website.
+- **Observation Guide (`guide.html`)** — provides guidance on objective language, Child's Voice, safeguarding and effective observation writing.
+- **Student Learning Hub (`students.html`)** — provides examples, explanations and practice support for early-years students.
+- **Try the Prototype (`prototype.html`)** — contains the structured early-years observation form.
+- **Custom 404 Page (`404.html`)** — explains that a requested page could not be found and provides a link back to the homepage.
+
+The four main pages will appear in the navigation menu. The 404 page will not appear in the navigation because it is only shown when a user attempts to visit a page that does not exist.
