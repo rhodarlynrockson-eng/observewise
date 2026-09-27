@@ -126,3 +126,48 @@ The following anonymised charts provide supporting evidence for the survey findi
 ![Preferred devices](documentation/research/survey-preferred-devices.png)
 
 ![Likelihood of trying ObserveWise](documentation/research/survey-likelihood-to-try.png)
+
+## Target Audience
+
+### Primary Audience
+
+ObserveWise is primarily designed for early-years practitioners. Practitioners were the largest group in the user survey, representing 52.4% of the 21 respondents. They need an efficient and structured way to record clear, objective observations while keeping professional judgement, safeguarding and confidentiality central to their practice.
+
+### Secondary Audiences
+
+ObserveWise also supports:
+
+- Early-years students who are developing their observation-writing skills.
+- Nursery and early-years managers who may support consistency and review practice.
+- College and university lecturers who teach and assess early-years students.
+- Early-years departmental heads who may oversee teaching, training and quality.
+- Other professionals connected with early-years practice and education.
+
+Although these groups have different responsibilities, they share a need for clear observation structures, objective language and appropriate safeguarding guidance.
+
+## User Stories
+
+The user stories were developed from the primary and secondary research. They describe what each audience needs from ObserveWise and provide a basis for deciding which features to include in the first version.
+
+### Early-years Practitioners
+
+- As an early-years practitioner, I want to complete an observation using a clear and structured form, so that I can record meaningful information efficiently and spend more time supporting children.
+- As an early-years practitioner, I want guidance on using objective language, so that my observations remain factual and professional.
+- As an early-years practitioner, I want a dedicated Child's Voice field, so that I can record the child's exact words separately from my interpretation.
+- As an early-years practitioner, I want prompts for possible areas of learning and next steps, so that I can reflect on how to support the child's development.
+- As an early-years practitioner, I want clear confidentiality guidance, so that I understand how to use the prototype safely and avoid entering real children's personal information.
+- As an early-years practitioner, I want the website to work on tablets, smartphones and computers, so that I can use it on the device available to me.
+
+### Early-years Students
+
+- As an early-years student, I want examples of effective observations, so that I can understand the difference between objective description and personal interpretation.
+- As an early-years student, I want a structured practice form, so that I can develop my observation-writing skills.
+- As an early-years student, I want guidance explaining each part of an observation, so that I can understand what information to include.
+- As an early-years student, I want safeguarding reminders, so that I can practise handling children's information responsibly.
+
+### Managers and Education Professionals
+
+- As an early-years manager, I want a consistent observation structure, so that I can support clear practice across my setting.
+- As a lecturer, I want ObserveWise to provide observation-writing examples and practice activities, so that I can use it to support early-years students.
+- As a lecturer, I want students to understand objective language and professional judgement, so that they can develop responsible observation skills.
+- As an early-years departmental head, I want the resource to reflect safeguarding and professional expectations, so that it is appropriate for education and training.
