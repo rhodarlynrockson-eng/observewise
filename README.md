@@ -233,3 +233,14 @@ ObserveWise will use a clear multi-page structure so that each audience can find
 - **Custom 404 Page (`404.html`)** — explains that a requested page could not be found and provides a link back to the homepage.
 
 The four main pages will appear in the navigation menu. The 404 page will not appear in the navigation because it is only shown when a user attempts to visit a page that does not exist.
+
+## Wireframes
+
+Four wireframes were created in Canva to plan the Home page and observation prototype at desktop and mobile sizes.
+
+- [Home page — desktop](documentation/wireframes/observewise-home-desktop.png)
+- [Home page — mobile](documentation/wireframes/observewise-home-mobile.png)
+- [Observation prototype — desktop](documentation/wireframes/observewise-prototype-desktop.png)
+- [Observation prototype — mobile](documentation/wireframes/observewise-prototype-mobile.png)
+
+[Read the design rationale, including why Canva and four wireframes were chosen](documentation/wireframes/README.md).
