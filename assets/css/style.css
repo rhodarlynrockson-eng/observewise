@@ -1,0 +1,123 @@
+/* Include padding and borders within element widths */
+* {
+    box-sizing: border-box;
+}
+
+/* Base page styles */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #24343a;
+    background-color: #ffffff;
+}
+/* Header and navigation */
+header {
+    padding: 1rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #d8e2e5;
+}
+
+header > a {
+    color: #24343a;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0.5rem 0;
+    color: #24343a;
+    text-decoration: underline;
+    text-underline-offset: 0.25rem;
+}
+
+nav a[aria-current="page"] {
+    font-weight: bold;
+}
+
+a:focus-visible {
+    outline: 3px solid #176b66;
+    outline-offset: 4px;
+}
+/* Main content */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2rem;
+    max-width: 22ch;
+}
+
+p {
+    max-width: 65ch;
+}
+
+/* Introductory section */
+section[aria-labelledby="hero-heading"] {
+    padding: 2rem 1rem;
+    background-color: #edf6f5;
+    border-radius: 0.75rem;
+}
+
+section[aria-labelledby="hero-heading"] > a {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    color: #ffffff;
+    background-color: #176b66;
+    border-radius: 0.375rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section[aria-labelledby="hero-heading"] > a:hover {
+    background-color: #10504c;
+}
+/* Information blocks */
+section[aria-labelledby="benefits-heading"] > div {
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid #d8e2e5;
+    border-radius: 0.75rem;
+}
+
+section[aria-labelledby="benefits-heading"] h3 {
+    margin-top: 0;
+}
+
+/* Footer */
+footer {
+    padding: 1.5rem 1rem;
+    color: #24343a;
+    background-color: #edf6f5;
+    border-top: 1px solid #d8e2e5;
+}
+
+footer p {
+    margin: 0.5rem auto;
+    text-align: center;
+}
