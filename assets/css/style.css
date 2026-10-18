@@ -47,7 +47,8 @@ nav a[aria-current="page"] {
     font-weight: bold;
 }
 
-a:focus-visible {
+a:focus-visible,
+summary:focus-visible {
     outline: 3px solid #176b66;
     outline-offset: 4px;
 }
