@@ -8,18 +8,26 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <a href="index.html">ObserveWise</a>
+   <header>
+    <a href="index.html">ObserveWise</a>
 
-        <nav aria-label="Main navigation">
-            <ul>
-                <li><a href="index.html" >Home</a></li>
-                <li><a href="guide.html">Observation Guide</a></li>
-                <li><a href="students.html"aria-current="page">Student Learning Hub</a></li>
-                <li><a href="prototype.html">Try the Prototype</a></li>
-            </ul>
-        </nav>
-    </header>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle"
+           aria-controls="main-navigation">
+
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span aria-hidden="true">☰</span>
+        <span>Menu</span>
+    </label>
+
+    <nav id="main-navigation" aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="guide.html">Observation Guide</a></li>
+            <li><a href="students.html"aria-current="page">Student Learning Hub</a></li>
+            <li><a href="prototype.html" >Try the Prototype</a></li>
+        </ul>
+    </nav>
+</header>
            <main>
         <section aria-labelledby="students-heading">
             <h1 id="students-heading">Student Learning Hub</h1>

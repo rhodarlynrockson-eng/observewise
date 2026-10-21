@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Practise early-years observation writing with the ObserveWise structured form. Use fictional information only.">
+   <title>ObserveWise | Observation Prototype</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+   <header>
+    <a href="index.html">ObserveWise</a>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle"
+           aria-controls="main-navigation">
+
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span aria-hidden="true">☰</span>
+        <span>Menu</span>
+    </label>
+
+    <nav id="main-navigation" aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="guide.html">Observation Guide</a></li>
+            <li><a href="students.html">Student Learning Hub</a></li>
+            <li><a href="prototype.html" aria-current="page">Try the Prototype</a></li>
+        </ul>
+    </nav>
+</header>
+            <main>
+        <section aria-labelledby="prototype-heading">
+            <h1 id="prototype-heading">Practise writing an observation</h1>
+            <p>
+                Use this structured form to practise describing what
+                happened, identifying learning and planning next steps.
+            </p>
+            <p id="privacy-notice">
+                <strong>Use fictional information only.</strong>
+                Do not enter real children's names or personal information.
+            </p>
+        </section>
+
+        <form id="observation-form" aria-describedby="privacy-notice">
+            <fieldset>
+                <legend>Observation details</legend>
+
+                <div>
+                    <label for="child-id">Fictional child identifier (required)</label>
+                    <input type="text" id="child-id" name="child-id"
+                           placeholder="For example, Child A"
+                           maxlength="40" required>
+                </div>
+
+                <div>
+                    <label for="observation-date">Observation date (required)</label>
+                    <input type="date" id="observation-date"
+                           name="observation-date" required>
+                </div>
+            </fieldset>
+                        <fieldset>
+                <legend>What happened?</legend>
+
+                <div>
+                    <label for="observation">
+                        Describe what you saw and heard (required)
+                    </label>
+                    <p id="observation-help">
+                        Describe actions and events. Keep assumptions
+                        separate from what you observed.
+                    </p>
+                    <textarea id="observation" name="observation"
+                              rows="6" maxlength="3000"
+                              aria-describedby="observation-help"
+                              required></textarea>
+                </div>
+
+                <div>
+                    <label for="child-voice">Child's voice (optional)</label>
+                    <p id="voice-help">
+                        Include exact spoken words where relevant.
+                        If there were no spoken words, you may describe
+                        observed gestures or expressions. Do not invent a quotation.
+                    </p>
+                    <textarea id="child-voice" name="child-voice"
+                              rows="4" maxlength="1500"
+                              aria-describedby="voice-help"></textarea>
+                </div>
+            </fieldset>
+                        <fieldset aria-describedby="development-help">
+                <legend>Areas of learning and development (optional)</legend>
+                <p id="development-help">
+                    These areas follow the EYFS in England.
+                    Select any supported by your fictional observation.
+                    For other UK frameworks, leave these unchecked and
+                    describe relevant areas in the learning field below.
+                </p>
+
+                <div>
+                    <input type="checkbox" id="communication"
+                           name="development-areas" value="communication">
+                    <label for="communication">Communication and language</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="physical"
+                           name="development-areas" value="physical">
+                    <label for="physical">Physical development</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="personal-social"
+                           name="development-areas" value="personal-social">
+                    <label for="personal-social">
+                        Personal, social and emotional development
+                    </label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="literacy"
+                           name="development-areas" value="literacy">
+                    <label for="literacy">Literacy</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="mathematics"
+                           name="development-areas" value="mathematics">
+                    <label for="mathematics">Mathematics</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="understanding-world"
+                           name="development-areas" value="understanding-world">
+                    <label for="understanding-world">Understanding the world</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="expressive-arts"
+                           name="development-areas" value="expressive-arts">
+                    <label for="expressive-arts">Expressive arts and design</label>
+                </div>
+            </fieldset>
+                        <fieldset>
+                <legend>Learning and next steps</legend>
+
+                <div>
+                    <label for="learning">
+                        What did the child learn or demonstrate? (required)
+                    </label>
+                    <p id="learning-help">
+                        Explain possible skills or understanding using
+                        evidence from your fictional observation.
+                        Keep interpretation separate from description.
+                    </p>
+                    <textarea id="learning" name="learning"
+                              rows="5" maxlength="2000"
+                              aria-describedby="learning-help"
+                              required></textarea>
+                </div>
+
+                <div>
+                    <label for="next-steps">Possible next steps (required)</label>
+                    <p id="next-steps-help">
+                        Suggest an opportunity, resource or interaction
+                        that follows the child's interests and learning.
+                    </p>
+                    <textarea id="next-steps" name="next-steps"
+                              rows="5" maxlength="2000"
+                              aria-describedby="next-steps-help"
+                              required></textarea>
+                </div>
+            </fieldset>
+            <button type="submit">Review observation</button>
+        </form>
+    </main>
+        <footer>
+        <p>
+            ObserveWise is an educational prototype.
+            Use fictional information only.
+        </p>
+        <p>&copy; 2026 ObserveWise</p>
+    </footer>
+</body>
+
+</html>
