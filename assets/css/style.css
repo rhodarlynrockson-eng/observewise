@@ -233,6 +233,14 @@ header > a {
     outline: 3px solid #176b66;
     outline-offset: 4px;
 }
+/* Centre pages with mainly reading content */
+main.reading-page {
+    max-width: 850px;
+}
+/* Centre the prototype introduction and form */
+main.prototype-page {
+    max-width: 814px;
+}
 /* Wider-screen layout */
 @media screen and (min-width: 768px) {
     header {
