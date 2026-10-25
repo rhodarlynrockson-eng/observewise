@@ -241,6 +241,33 @@ main.reading-page {
 main.prototype-page {
     max-width: 814px;
 }
+/* Footer social links */
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    color: #24343a;
+    text-underline-offset: 0.25rem;
+}
+
+.social-links a:hover {
+    color: #10504c;
+}
+
+.social-links i {
+    font-size: 1.25rem;
+}
 /* Wider-screen layout */
 @media screen and (min-width: 768px) {
     header {
