@@ -11,6 +11,9 @@ body {
     line-height: 1.6;
     color: #24343a;
     background-color: #ffffff;
+        min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 /* Header and navigation */
 header {
@@ -57,6 +60,8 @@ main {
     max-width: 1100px;
     margin: 0 auto;
     padding: 2rem 1rem;
+        flex: 1;
+    width: 100%;
 }
 
 section {
