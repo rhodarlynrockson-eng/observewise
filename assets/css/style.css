@@ -268,6 +268,45 @@ main.prototype-page {
 .social-links i {
     font-size: 1.25rem;
 }
+/* Observation review */
+#observation-review {
+    padding: 1.25rem;
+    border: 1px solid #d8e2e5;
+    border-radius: 0.75rem;
+    background-color: #edf6f5;
+}
+
+#review-content dt {
+    margin-top: 1.25rem;
+    font-weight: bold;
+}
+
+#review-content dd {
+    margin: 0.5rem 0 1.25rem;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+#edit-observation {
+    padding: 0.75rem 1.25rem;
+    font: inherit;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #176b66;
+    border: 0;
+    border-radius: 0.375rem;
+    cursor: pointer;
+}
+
+#edit-observation:hover {
+    background-color: #10504c;
+}
+
+#edit-observation:focus-visible,
+#review-heading:focus {
+    outline: 3px solid #176b66;
+    outline-offset: 4px;
+}
 /* Wider-screen layout */
 @media screen and (min-width: 768px) {
     header {
