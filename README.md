@@ -244,3 +244,13 @@ Four wireframes were created in Canva to plan the Home page and observation prot
 - [Observation prototype — mobile](documentation/wireframes/observewise-prototype-mobile.png)
 
 [Read the design rationale, including why Canva and four wireframes were chosen](documentation/wireframes/README.md).
+
+## Credits
+
+### Media
+
+The Home page photograph, [Photo of a Kid’s Hand Placing a Wooden Block](https://www.pexels.com/photo/photo-of-a-kid-s-hand-placing-a-wooden-block-7269694/), is by Kaboompics and was downloaded from Pexels under the [Pexels licence](https://www.pexels.com/license/).
+
+ The photograph was resized from 6720 × 4480 pixels to 1200 × 800 pixels using Microsoft Paint, hence ,reducing its file size from approximately 2.66 MB to 173 KB to help the page load faster.
+
+ This photograph chosen because it illustrates block play, which relates to ObserveWise’s focus on early-years observations. The framing shows the activity without showing children’s faces.

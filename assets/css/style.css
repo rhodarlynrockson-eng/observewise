@@ -307,6 +307,15 @@ main.prototype-page {
     outline: 3px solid #176b66;
     outline-offset: 4px;
 }
+/* Home page photograph */
+.hero-image {
+    display: block;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    margin: 1.5rem 0;
+    border-radius: 0.75rem;
+}
 /* Wider-screen layout */
 @media screen and (min-width: 768px) {
     header {
