@@ -88,3 +88,5 @@ editObservation.addEventListener("click", function () {
     observationForm.hidden = false;
     document.getElementById("child-id").focus();
 });
+// Enable review after the form event handlers are ready.
+document.getElementById("review-button").disabled = false;
