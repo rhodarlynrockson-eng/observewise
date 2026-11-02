@@ -6,6 +6,20 @@ const observationReview = document.getElementById("observation-review");
 const reviewHeading = document.getElementById("review-heading");
 const reviewContent = document.getElementById("review-content");
 const editObservation = document.getElementById("edit-observation");
+// Reject answers containing only spaces in required text fields.
+const requiredTextFields = observationForm.querySelectorAll(
+    'input[type="text"][required], textarea[required]'
+);
+
+requiredTextFields.forEach(function (field) {
+    field.addEventListener("input", function () {
+        if (field.value.trim() === "") {
+            field.setCustomValidity("Please enter an answer, not just spaces.");
+        } else {
+            field.setCustomValidity("");
+        }
+    });
+});
 // Add one label and answer to the review.
 function addReviewItem(label, answer) {
     const term = document.createElement("dt");
@@ -19,6 +33,17 @@ function addReviewItem(label, answer) {
 // Build the review when the completed form is submitted.
 observationForm.addEventListener("submit", function (event) {
     event.preventDefault();
+        requiredTextFields.forEach(function (field) {
+        if (field.value.trim() === "") {
+            field.setCustomValidity("Please enter an answer, not just spaces.");
+        } else {
+            field.setCustomValidity("");
+        }
+    });
+
+    if (!observationForm.reportValidity()) {
+        return;
+    }
 
     // Clear the previous preview before building a fresh one.
     reviewContent.replaceChildren();
@@ -46,6 +71,7 @@ observationForm.addEventListener("submit", function (event) {
     selectedAreas.forEach(function (checkbox) {
         areaNames.push(checkbox.labels[0].textContent.trim());
     });
+    
 
     addReviewItem(
         "Areas of learning and development",
