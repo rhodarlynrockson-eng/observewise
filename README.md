@@ -151,28 +151,42 @@ The user stories were developed from the primary and secondary research. They de
 
 ### Early-years Practitioners
 
-- As an early-years practitioner, I want to complete an observation using a clear and structured form, so that I can record meaningful information efficiently and spend more time supporting children.
+- As an early-years practitioner, I want to practise recording an observation using a clear, structured form, so that I can organise what I saw and heard, what the child demonstrated, and possible next steps.
+  - **Acceptance criterion:** When I complete the required fields using fictional details and select **Review observation**, I can see what happened, what the child demonstrated and possible next steps under separate labels.
 - As an early-years practitioner, I want guidance on using objective language, so that my observations remain factual and professional.
-- As an early-years practitioner, I want a dedicated Child's Voice field, so that I can record the child's exact words separately from my interpretation.
+  - **Acceptance criterion:** In the Observation Guide, I can find an example that shows the difference between what was observed and what was assumed.
+- As an early-years practitioner, I want a dedicated Child’s Voice field, so that I can practise recording a fictional child’s exact words or describing their gestures separately from my interpretation.
+  - **Acceptance criterion:** When I enter a fictional quote or description of a gesture in the **Child’s voice** field, it appears under its own label in the review, separate from the learning interpretation.
 - As an early-years practitioner, I want prompts for possible areas of learning and next steps, so that I can reflect on how to support the child's development.
-- As an early-years practitioner, I want clear confidentiality guidance, so that I understand how to use the prototype safely and avoid entering real children's personal information.
+  - **Acceptance criterion:** I can select a relevant area of learning and enter a possible next step. Both appear under separate labels in the review.
+- As an early-years practitioner, I want a clear reminder to use fictional information before I start the form, so that I can practise without entering a real child’s personal details.
+  - **Acceptance criterion:** The prototype displays a reminder to use only fictional information before the first form field.
 - As an early-years practitioner, I want the website to work on tablets, smartphones and computers, so that I can use it on the device available to me.
+  - **Acceptance criterion:** At phone, tablet and desktop widths, I can use the main navigation, read the page content and complete the practice form without scrolling sideways.
 
 ### Early-years Students
 
 - As an early-years student, I want examples of effective observations, so that I can understand the difference between objective description and personal interpretation.
+  - **Acceptance criterion:** In the Student Learning Hub, I can compare an example that makes assumptions with a rewritten version that describes what was seen and heard.
 - As an early-years student, I want a structured practice form, so that I can develop my observation-writing skills.
+  - **Acceptance criterion:** I can complete the form with fictional details, open the review and select **Return to editing** without losing my answers.
 - As an early-years student, I want guidance explaining each part of an observation, so that I can understand what information to include.
-- As an early-years student, I want safeguarding reminders, so that I can practise handling children's information responsibly.
+  - **Acceptance criterion:** The Observation Guide explains what to include when describing what happened, recording the child’s voice, identifying learning and suggesting next steps.
+- As an early-years student, I want a reminder to use fictional details in the practice form, so that I can develop my observation-writing skills without sharing a real child’s information.
+  - **Acceptance criterion:** The prototype displays a reminder to use only fictional information before the first form field.
 
 ### Managers and Education Professionals
 
-- As an early-years manager, I want a consistent observation structure, so that I can support clear practice across my setting.
+- As an early-years manager, I want a structured fictional practice form, so that I can use it to discuss what a clear observation should include with my team.
+  - **Acceptance criterion:** The practice form has separate labelled sections for observation details, what happened, areas of learning and development, and learning and next steps.
 - As a lecturer, I want ObserveWise to provide observation-writing examples and practice activities, so that I can use it to support early-years students.
-- As a lecturer, I want students to understand objective language and professional judgement, so that they can develop responsible observation skills.
-- As an early-years departmental head, I want the resource to reflect safeguarding and professional expectations, so that it is appropriate for education and training.
+  - **Acceptance criterion:** The Student Learning Hub provides a worked example, steps for practising observation writing and reflection questions students can discuss.
+- As a lecturer, I want an example that separates what was observed from what it might mean, so that I can help students practise making professional judgements based on evidence.
+  - **Acceptance criterion:** The Observation Guide gives an example that describes what a child did and explains what that action might demonstrate.
+- As an early-years departmental head, I want the practice form to clearly tell learners to use fictional information, so that I can use the resource in training without asking learners to enter real children’s details.
+  - **Acceptance criterion:** The prototype displays a reminder to use only fictional information before the first form field.
 
-- ## Feature Prioritisation
+## Feature Prioritisation
 
 The MoSCoW method was used to prioritise features. This keeps the first version achievable while ensuring that the most important needs identified through research are addressed.
 
