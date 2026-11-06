@@ -259,6 +259,18 @@ Four wireframes were created in Canva to plan the Home page and observation prot
 
 [Read the design rationale, including why Canva and four wireframes were chosen](documentation/wireframes/README.md).
 
+## Testing
+
+### Manual testing: Observation prototype
+
+**Observation review — Pass.** I completed the required fields with fictional information and selected **Review observation**. The description, learning demonstrated and possible next steps appeared under their own labels and matched the answers I entered.
+
+[View the observation review screenshot](documentation/screenshots/observation-review.png)
+
+**Spaces-only answers — Pass.** I entered only spaces in each of the four required text fields in turn, keeping the other required answers valid. Each field showed a validation message and prevented the review from opening. After I replaced the spaces with valid text, the review opened.
+
+**JavaScript disabled — Pass.** I disabled JavaScript in Chrome and refreshed the prototype. The page displayed a message asking me to enable JavaScript, and the Review observation button did not submit the form. After I enabled JavaScript and refreshed, the review worked again.
+
 ## Credits
 
 ### Media
