@@ -270,6 +270,21 @@ Four wireframes were created in Canva to plan the Home page and observation prot
 **Spaces-only answers — Pass.** I entered only spaces in each of the four required text fields in turn, keeping the other required answers valid. Each field showed a validation message and prevented the review from opening. After I replaced the spaces with valid text, the review opened.
 
 **JavaScript disabled — Pass.** I disabled JavaScript in Chrome and refreshed the prototype. The page displayed a message asking me to enable JavaScript, and the Review observation button did not submit the form. After I enabled JavaScript and refreshed, the review worked again.
+### Custom 404 page
+
+**Result Pass after fixing relative paths.**  The  missing pages were tested `/observewise/missing-page.html` and `/observewise/test/missing-page.html` on the deployed website through GITHUB pages.
+
+The nested address initially displayed an unstyled 404 page, and the return link did not take the user back to the homepage e=when the link was clicked on. The relative paths were resolving inside the missing page's folder.
+
+**Before Fixing:**
+
+![Nested 404 page before the path fix](documentation/screenshots/404-before-fix.png)
+
+ The stylesheet and internal links in `404.html` was udated to start with `/observewise/` then, after deploying commit `16c750a`, the page was retested using the nested address. The styling loaded correctly, and **Return to the home page** link opened the Home page.
+
+**After fixing:**
+
+![Styled 404 page after the path fix](documentation/screenshots/404-page.png)
 
 ## Credits
 
