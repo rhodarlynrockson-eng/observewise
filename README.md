@@ -286,6 +286,55 @@ The nested address initially displayed an unstyled 404 page, and the return link
 
 ![Styled 404 page after the path fix](documentation/screenshots/404-page.png)
 
+## Deployment
+
+ObserveWise is deployed using GitHub Pages.
+
+[View the live ObserveWise website](https://rhodarlynrockson-eng.github.io/observewise/)
+
+### GitHub Pages deployment steps
+
+1. Open the ObserveWise repository on GitHub.
+2. Select **Settings**, then **Pages**.
+3. Under **Build and deployment**, select **Deploy from a branch**.
+4. Select the **main** branch and **/ (root)** folder.
+5. Click **Save** and wait for the deployment to complete.
+6. Open the published website using the link displayed on the Pages settings screen.
+
+Updates pushed to the main branch trigger a new deployment. After deployment, check the live website to confirm that the changes appear and work as expected.
+
+### Running the project locally
+
+Git and Python 3 are required. No additional packages are needed.
+
+Create a folder for the project and open a terminal in that folder. Clone the repository:
+
+```bash
+git clone https://github.com/rhodarlynrockson-eng/observewise.git
+```
+
+Remain in the folder containing the newly created `observewise` folder. Start a local web server:
+
+```bash
+python -m http.server 8000 --bind 127.0.0.1
+```
+
+On Windows, use this command if `python` is unavailable:
+
+```bash
+py -m http.server 8000 --bind 127.0.0.1
+```
+
+Keep the terminal open and visit [the local website](http://localhost:8000/observewise/).
+
+The server runs from the parent folder so that the `/observewise/` paths used in `404.html` work locally. The `--bind 127.0.0.1` option makes the server accessible only from your computer.
+
+To preview the custom error page, open [the local 404 page](http://localhost:8000/observewise/404.html). Python's basic server does not automatically display this custom page for missing addresses, so missing-address behaviour must also be tested on GitHub Pages.
+
+To edit the code, open the cloned `observewise` folder in VS Code. Press **Ctrl + C** in the server terminal when you want to stop the server.
+
+ These instructions were tested on Windows using Python 3.12. The Home page loaded with its stylesheet and photograph. The directly opened custom 404 page was styled, and its return link opened the local Home page.
+
 ## Credits
 
 ### Media
